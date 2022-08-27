@@ -1,0 +1,99 @@
+body {
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(#FFA69E, #861657);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+span {
+    color: blueviolet;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 8px white;
+}
+
+h2 {
+    text-shadow: 2px 2px 8px white;
+}
+
+.mainimage {
+    max-width: 100%;
+}
+
+
+.html5,.css3,.javascipt,.angular,.react {
+    max-width: 100%;
+    height: 200px;
+}
+
+p {
+    margin-top: 0;
+    text-align: justify;
+}
+
+.container {
+    width: 95%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media (min-width:300px) and (max-width:650px) {
+    .columns {
+        display: flex;
+   flex-direction: column;
+    }
+    .col {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .col-1 {
+        width: 100%;
+    }
+    .col-2 {
+        width: 100% ;
+    }
+    .col-3 {
+        width: 100%;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    .col-5 {
+        width: 100%;
+    }
+} 
+
+
+
+.col {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.col-1 {
+    width: 50%;
+}
+.col-2 {
+    width: 50% ;
+}
+.col-3 {
+    width: 50%;
+}
+.col-4 {
+    width: 50%;
+}
+.col-5 {
+    width: 50%;
+}
+
